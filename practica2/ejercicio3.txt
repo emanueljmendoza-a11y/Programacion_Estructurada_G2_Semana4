@@ -1,0 +1,15 @@
+¿Por qué producen comportamientos diferentes?
+
+La diferencia está en que los números (int, float) son inmutables, mientras que las listas son mutables.
+
+En el salario, salario = salario + 1000 crea un nuevo valor y la variable original permanece igual.
+En la lista, append() modifica directamente la lista original.
+
+En pocas palabras:
+
+Número: la función modifica su variable local, no el original.
+Lista: append() modifica directamente el objeto original.
+
+Esto es importante porque no significa simplemente que "Python pasa números por valor y listas por referencia"; 
+técnicamente Python pasa referencias a objetos, 
+pero los efectos se diferencian por la mutabilidad del objeto.
