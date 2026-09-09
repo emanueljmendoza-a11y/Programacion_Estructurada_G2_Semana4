@@ -1,6 +1,6 @@
 #registro de estudiantes
 """
-DaRegistrar notas de n cantidad de estudiantes,
+Registrar notas de n cantidad de estudiantes,
 """
 
 notas = []
