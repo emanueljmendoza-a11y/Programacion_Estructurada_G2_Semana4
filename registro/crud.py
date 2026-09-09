@@ -1,0 +1,21 @@
+#registro de estudiantes
+"""
+DaRegistrar notas de n cantidad de estudiantes,
+"""
+
+notas = []
+
+def agregar (nota):
+    notas.append(nota)
+
+def mostrar():
+    return notas
+
+def evaluarnotas():
+    for nota in notas:
+        if nota >= 70:
+            print(f"{nota} ha aprobado.")
+        else:
+            print(f"{nota} tiene que mejorar.")
+
+
